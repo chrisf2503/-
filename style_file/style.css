@@ -3,59 +3,20 @@ html{
     height: 100%;
 }
 body{
-    background-color: grey;
+    background-color:thistle;
 }
 .Title{
-    text-align: center;
-}
-.navbar ul {
-    list-style: none;
-
-}
-.navbar{
-    border: 10px;
-    border-style: ridge;
-    border-color: cadetblue;
-    display: flex;
-    justify-content: space-evenly;
-}
-/* Style rule set for individual li */
-.navbar ul li {
-    float: left;
-    margin: 10px;
-}
-
-
-/* Style rule set for individual li link */
-.navbar ul li a {
-    font-family: Arial;
-    color:black;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-/* Style rule set for hovered link */
-.navbar ul li a:hover {
-    color: blue;
-    font-weight: bold;
-}
-
-/* Part 2: Flexbox */
-
-/* General style rule set for flex container */
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-.flex-item {
-    background: white;
-    color: black;
-    font-weight: bold;
     text-align: center;
 }
 .boxs{
     display: flex;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
+}
+.reason_japanese,.reason_english{
+    border-style:inset;
+    text-align: center;
+}
+.explain{
+    font-size: 14px;;
 }
